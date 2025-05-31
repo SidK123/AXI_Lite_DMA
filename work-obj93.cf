@@ -1,0 +1,9 @@
+v 4
+file . "axi_lite.vhdl" "a346421fde446fff6b7e2171e260047eebca06a8" "20250528195127.067":
+  entity axi_lite_slave at 3( 96) + 0 on 189;
+  architecture participant1 of axi_lite_slave at 24( 1010) + 0 on 190;
+  entity axi_lite_master at 80( 2664) + 0 on 191;
+  architecture master1 of axi_lite_master at 106( 3843) + 0 on 192;
+file . "axi_tb.vhdl" "a66f8714ccf9a7b2bba24ec90d7ddc516d0f868b" "20250528195129.066":
+  entity tb at 1( 0) + 0 on 193;
+  architecture behavior of tb at 7( 66) + 0 on 194;
